@@ -1,0 +1,158 @@
+[
+  {
+    "id":  1,
+    "name": "Название теста 1",
+    "description": "Описание теста 1",
+    "timeToEnd": "30",
+    "questions": [
+      {
+        "id": 1,
+        "text":  "Как вас зовут?",
+        "type": "SINGLE_ANSWER",
+        "rightAnswer":  1,
+        "answers":  [
+          {
+            "id": 1,
+            "answer":  "John"
+          },
+          {
+            "id": 2,
+            "answer":  "Richard"
+          },
+          {
+            "id": 3,
+            "answer":  "Mary"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text":  "Как зовут ваше домашнее животное?",
+        "type": "SINGLE_ANSWER",
+        "rightAnswer":  3,
+        "answers":  [
+          {
+            "id": 1,
+            "answer":  "Trich"
+          },
+          {
+            "id": 2,
+            "answer":  "Tom"
+          },
+          {
+            "id": 3,
+            "answer":  "Tommy"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text":  "Мульти ответ?",
+        "type": "MULTI_ANSWER",
+        "rightAnswers": [2, 3],
+        "answers":  [
+          {
+            "id": 1,
+            "answer":  "Один"
+          },
+          {
+            "id": 2,
+            "answer":  "Два"
+          },
+          {
+            "id": 3,
+            "answer":  "Три"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text":  "Короткий ответ?",
+        "type": "SHORT_ANSWER"
+      },
+      {
+        "id": 5,
+        "text":  "Развернутый ответ?",
+        "type": "LONG_ANSWER"
+      }
+    ]
+  },
+  {
+    "id":  2,
+    "name": "Название теста 2",
+    "description": "Описание теста 2",
+    "timeToEnd": "120",
+    "questions": [
+      {
+        "id": 6,
+        "text":  "Как вас зовут?",
+        "type": "SINGLE_ANSWER",
+        "rightAnswer":  2,
+        "answers":  [
+          {
+            "id": 1,
+            "answer":  "Не правильный"
+          },
+          {
+            "id": 2,
+            "answer":  "Правильный"
+          },
+          {
+            "id": 3,
+            "answer":  "Не правильный"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text":  "Как зовут ваше домашнее животное?",
+        "type": "SINGLE_ANSWER",
+        "rightAnswer":  3,
+        "answers":  [
+          {
+            "id": 1,
+            "answer":  "Не правильный"
+          },
+          {
+            "id": 2,
+            "answer":  "Не правильный"
+          },
+          {
+            "id": 3,
+            "answer":  "Правильный"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text":  "Мульти ответ?",
+        "type": "MULTI_ANSWER",
+        "rightAnswers": [2, 3],
+        "answers":  [
+          {
+            "id": 1,
+            "answer":  "Не правильный"
+          },
+          {
+            "id": 2,
+            "answer":  "Правильный"
+          },
+          {
+            "id": 3,
+            "answer":  "Правильный"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text":  "Короткий ответ?",
+        "type": "SHORT_ANSWER"
+      },
+      {
+        "id": 10,
+        "text":  "Развернутый ответ?",
+        "type": "LONG_ANSWER"
+      }
+    ]
+  }
+]
